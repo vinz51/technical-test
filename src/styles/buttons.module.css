@@ -1,0 +1,21 @@
+
+.button {
+  background-color: #65b7fa;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 12px 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.cancel {
+  background-color: #ff5822;
+}
+
+.validate {
+  background-color: #3cd26f;
+}
