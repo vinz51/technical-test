@@ -1,0 +1,89 @@
+.tableContainer {
+  margin: 1%;
+}
+
+.table {
+  border: 2px solid #e2e6ef;
+  width: 100%;
+}
+
+.weekday {
+  background-color: #f6f7fa;
+  color: #9aa4b6;
+}
+
+.table thead, .table tbody tr {
+  border-bottom: 2px solid #e2e6ef;
+}
+
+.table th, .table tbody td {
+  border-left: 2px solid #e2e6ef;
+}
+
+.th {
+  padding: 10px;
+}
+
+.td {
+  padding: 10px;
+}
+
+.emptyCell {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 2px;
+  position: absolute;
+}
+
+.emptyCell:hover button {
+  display: block;
+}
+
+.emptyCell button {
+  display: none;
+  background-color: #f8f9fb;
+  border: 1px solid #e2e6ef;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.emptyCell button span {
+  color: #9aa4b6;
+  display: block;
+  border: 1px solid #9aa4b6;
+  border-radius: 50px;
+  width: 18px;
+  height: 18px;
+  margin: 0 auto;
+  padding-top: 1px;
+}
+
+.initials {
+  background: #212a49;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  height: 30px;
+  margin-right: 10px;
+  padding-top: 8px;
+  text-align: center;
+  width: 30px;
+}
+
+.shift {
+  border-radius: 5px;
+  opacity: .8;
+  padding: 10px 5px;
+}
+
+.shift span {
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 2px 5px;
+}
